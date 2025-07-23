@@ -17,9 +17,7 @@ def hi_and_low_game():
     # ループ
     while True:
         print(f"\n現在のカードは: {current_card}")
-        guess = input(
-            "次のカードは High (H) か Low (L) か？（終了したい場合は Q）："
-        ).upper()
+        guess = input("次のカードは High (H) か Low (L) か？（終了したい場合は Q）：")
 
         # ゲーム終了
         if guess == "Q":
@@ -49,3 +47,14 @@ def hi_and_low_game():
 
 # 関数の呼び出し　実行
 hi_and_low_game()
+
+
+# def を使った関数の定義
+
+# while ループ
+
+# if文 条件分岐
+
+# random モジュール
+
+# input() でユーザーの入力を受け取る
