@@ -49,6 +49,9 @@ def hi_and_low_game():
 hi_and_low_game()
 
 
+
+# Hi and low 
+
 # def を使った関数の定義
 
 # while ループ
